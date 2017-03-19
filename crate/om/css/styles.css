@@ -1,0 +1,98 @@
+        /*!
+ * Custom styles af DIG
+ */
+        /*Generelt*/
+
+        .om {
+            background-image: url(../billeder/baggrund-01-01.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .p {
+            font-family: "source sans pro"
+        }
+        .menu {
+            margin-top: 3vw;
+            margin-bottom: 1vw;
+        }
+        .vinyl .vinyl1 img {
+            width: 10vw;
+        }
+        .navbar-header {
+            background-color: white;
+        }
+        footer {
+            text-align: center;
+            font-size: 10px;
+            margin-bottom: 3vw;
+            margin-top: 4vw;
+        }
+        img {
+            width: 100%;
+        }
+        .social img {
+            width: 4vw;
+            padding-bottom: 5vw;
+            padding-top: 5vw;
+        }
+        /*Desktop lg*/
+        /*Desktop md*/
+
+        @media only screen and (min-width: 1025px) {
+            footer {
+                font-size: 12px;
+            }
+            .hvem {
+                margin-top: 10vw;
+            }
+            .tekst1 {
+                margin-top: 2vw;
+                padding-right: 5vw;
+                padding-bottom: 40vw;
+            }
+            .social img {
+                width: 3vw;
+            }
+        }
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            .hvem {
+                margin-top: 5vw;
+            }
+            .tekst1 {
+                margin-top: 2vw;
+                padding-bottom: 30vw;
+            }
+        }
+        /*Tablet sm*/
+
+        @media only screen and (min-width: 426px) and (max-width: 768px) {
+            .tekst1 {
+                margin-top: 2vw;
+                padding-bottom: 1vw;
+            }
+            .hvem img {
+                margin-top: 5vw;
+            }
+            .social img {
+                width: 100%;
+                margin-bottom: 3vw;
+                margin-top: 5vw;
+            }
+        }
+        /*Mobil xs*/
+
+        @media only screen and (max-width: 425px) {
+            .menu {
+                margin-top: 3vw;
+                margin-bottom: 5vw;
+            }
+            .om {
+                background-image: url(../billeder/baggrund-01-kopi.png);
+            }
+            .social img {
+                width: 7vw;
+                margin-bottom: 5vw;
+                margin-left: 5vw;
+            }
+        }

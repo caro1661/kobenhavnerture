@@ -1,0 +1,123 @@
+.forside {
+    background-image: url(../billeder/16731433_1240384112709127_1761963951_o.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%
+}
+
+/* Spritesheet med øl*/
+
+.katol {
+    width: 48vw;
+    height: 80vw;
+    right: -22.1vw;
+    top: -6.2vw;
+    position: absolute;
+    background-image: url(../billeder/spriteol-01.svg);
+    background-size: 1000% 100%;
+    pointer-events: none;
+}
+.tagol {
+    animation-name: tagol_keyframes;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(10);
+}
+@keyframes tagol_keyframes {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -1000%;
+    }
+}
+
+/* Spritesheet med vinyl*/
+
+.katvinyl {
+    width: 92.6vw;
+    height: 58vw;
+    top: 9vw;
+    right: -30.1vw;
+    position: absolute;
+    background-image: url(../billeder/spritesheetvinyl-01.svg);
+    background-size: 1500% 100%;
+    pointer-events: none;
+}
+.tagvinyl {
+    animation-name: tagvinyl_keyframes;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(15);
+}
+@keyframes tagvinyl_keyframes {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: -1500%;
+    }
+}
+.navbar-header {
+    background-color: white transparent;
+}
+.menu {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 3vw;
+    margin-top: 4vw;
+}
+img {
+    width: 100%;
+}
+.special {
+    margin-top: 8vw;
+    margin-left: 2vw;
+}
+.ol2 {
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+.funk {
+    margin-top: 8vw;
+}
+.social img {
+    width: 4vw;
+    padding-bottom: 5vw;
+    padding-top: 30vw;
+}
+
+/*Desktop md*/
+
+@media only screen and (min-width: 1025px) {
+    .social img {
+        width: 3vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+/*Tablet sm*/
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .social img {
+        width: 100%;
+        margin-bottom: 3vw;
+        margin-top: 5vw;
+    }
+}
+
+/*Mobil xs*/
+
+@media only screen and (max-width: 425px) {
+    .social img {
+        width: 7vw;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+}

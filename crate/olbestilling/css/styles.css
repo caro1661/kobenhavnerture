@@ -1,0 +1,163 @@
+/*!
+ * Custom styles af DIG
+ */
+
+
+/*Generelt*/
+
+.p {
+    font-family: "source sans pro"
+}
+.menu {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.olbestilling {
+    background-image: url(../billeder/dino-01-01-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.navbar-header {
+    background-color: white;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 3vw;
+    margin-top: 4vw;
+}
+img {
+    width: 100%;
+}
+.social img {
+    width: 4vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+
+/*Desktop md*/
+
+@media only screen and (min-width: 1025px) {
+    footer {
+        font-size: 12px;
+        margin-bottom: 1vw;
+    }
+    .social img {
+        width: 3vw;
+    }
+    .kontakt {
+        margin-top: 22vw;
+        margin-bottom: 2vw;
+        margin-left: 3vw;
+    }
+    .bestil {
+        margin-top: 7vw;
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+    }
+    .tekst1 {
+        margin-left: 5vw;
+    }
+    .send {
+        margin-bottom: 10vw;
+    }
+    .form-group {
+        margin-left: 4vw;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .kontakt {
+        margin-top: 10vw;
+        margin-left: 2vw;
+    }
+    .bestil {
+        margin-top: 7vw;
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+    }
+    .tekst1 {
+        margin-left: 5vw;
+    }
+    .send {
+        margin-left: 4vw;
+        margin-bottom: 10vw;
+    }
+    .mail {
+        margin-left: 3vw;
+    }
+    .form-group {
+        margin-left: 4vw;
+    }
+    .send {
+        margin-left: 2vw;
+    }
+}
+
+/*Tablet sm*/
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .kontakt {
+        margin-top: 10vw;
+        margin-left: 3vw;
+    }
+    .bestil {
+        margin-top: 7vw;
+        margin-left: 4vw;
+        margin-bottom: 2vw;
+    }
+    .tekst1 {
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
+    .send {
+        margin-left: 10vw;
+        margin-bottom: 10vw;
+    }
+    .mail {
+        margin-left: 5vw;
+    }
+    .form-group {
+        margin-left: 5vw;
+    }
+    .send {
+        margin-left: 6vw;
+    }
+    .social img {
+        width: 100%;
+        margin-bottom: 3vw;
+        margin-top: 5vw;
+    }
+}
+
+/*Mobil xs*/
+
+@media only screen and (max-width: 425px) {
+    .menu {
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+    }
+    .olbestilling {
+        background-image: url(../billeder/baggrund-01-kopi.png);
+    }
+    .bestil {
+        margin-top: 5vw;
+        margin-left: 4vw;
+        margin-bottom: 10vw;
+    }
+    .tekst1 {
+        margin-left: 4vw;
+        margin-bottom: 10vw;
+    }
+    .form-group {
+        margin-left: 4vw;
+    }
+    .send {
+        margin-left: 3vw;
+    }
+    .social img {
+        width: 7vw;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+}

@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Century Gothic";
+}
+.splash {
+    width: 100%;
+    height: 62vw;
+    background-image: url(splash-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gruppe img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.trello img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.design img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.nabc img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.undersoegelse img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.userscenarios img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.teknisk img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+.visueltdesign img {
+    width: 100%;
+    margin-bottom: 10vw;
+}
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.72);
+    ;
+    width: 100%;
+    /*  padding-left: 2vw;
+    padding-right: 2vw;*/
+    /*  padding-bottom: 1vw;
+    padding-top: 1vw;*/
+    margin: 0;
+    text-align: center;
+}
+.nav-up {
+    top: -40px;
+}
+a {
+    //text-transform: uppercase;
+    color: gray;
+    line-height: 3;
+    text-decoration: none;
+    font-family: "helvetica neue";
+    font-weight: 300;
+    font-size: 15px;
+    text-align-last: center;
+}
+a:hover {
+    color: black;
+    font-size: 17px;
+}

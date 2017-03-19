@@ -1,0 +1,183 @@
+/*!
+ * Custom styles af DIG
+ */
+
+
+/*Generelt*/
+
+.menu {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.p {
+    font-family: "source sans pro"
+}
+.menu {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.events {
+    background-image: url(../billeder/baggrund-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.navbar-header {
+    background-color: white transparent;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 3vw;
+    margin-top: 4vw;
+}
+img {
+    width: 100%;
+}
+.social img {
+    width: 4vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+.tekst3 {
+    margin-left: 1vw;
+}
+.om {
+    margin-left: 1vw;
+}
+@media only screen and (min-width: 1025px) {
+    footer {
+        font-size: 13px;
+        margin-bottom: 1vw;
+    }
+    .juledage {
+        width: 100%;
+        margin-left: 10vw;
+        margin-top: 7vw;
+        margin-bottom: 3vw;
+    }
+    .billede1 {
+        margin-left: 10vw;
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .release {
+        width: 100%;
+        margin-left: 10vw;
+        margin-top: 7vw;
+        margin-bottom: 3vw;
+    }
+    .billede2 {
+        margin-left: 1vw;
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .tekst2 {
+        margin-bottom: 2vw;
+    }
+    .om {
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+    .tekst3 {
+        margin-bottom: 20vw;
+    }
+    .social img {
+        width: 3vw;
+    }
+}
+
+/*Tablet sm*/
+
+@media only screen and (min-width: 426px) and (max-width: 1024px) {
+    .juledage {
+        width: 100%;
+        margin-left: 10vw;
+        margin-top: 7vw;
+    }
+    .billede1 {
+        margin-left: 10vw;
+        width: 100%;
+    }
+    .release {
+        margin-left: 10vw;
+        margin-top: 10vw;
+        width: 100%;
+    }
+    .billede2 {
+        width: 100%;
+    }
+    .tekst2 {
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+    }
+    .om {
+        width: 100%;
+        margin-left: 2vw;
+        margin-bottom: 2vw;
+    }
+    .tekst3 {
+        margin-left: 2vw;
+        margin-bottom: 20vw;
+    }
+    .dino {
+        margin-top: 10vw;
+    }
+    .social img {
+        width: 100%;
+        margin-bottom: 3vw;
+        margin-top: 5vw;
+    }
+    footer {
+        font-size: 13px;
+        margin-bottom: 1vw;
+    }
+}
+
+/*Mobil xs*/
+
+@media only screen and (max-width: 425px) {
+    .menu {
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+    }
+    .juledage {
+        width: 100%;
+        margin-left: 10vw;
+    }
+    .billede1 {
+        margin-left: 10vw;
+    }
+    .tekst1 {
+        margin-top: 5vw;
+        margin-left: 10vw;
+        margin-bottom: 15vw;
+    }
+    .release {
+        margin-left: 10vw;
+        margin-top: 10vw;
+        width: 100%;
+    }
+    .tekst2 {
+        margin-top: 6vw;
+        margin-left: 10vw;
+        margin-bottom: 10vw;
+    }
+    .om {
+        width: 100%;
+        margin-left: 10vw;
+        margin-bottom: 5vw;
+    }
+    .tekst3 {
+        margin-left: 12vw;
+        margin-bottom: 20vw;
+    }
+    .prik {
+        margin-bottom: 10vw;
+    }
+    .social img {
+        width: 7vw;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+}

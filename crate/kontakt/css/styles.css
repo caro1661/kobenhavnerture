@@ -1,0 +1,114 @@
+/*!
+ * Custom styles af DIG
+ */
+
+
+/*Generelt*/
+
+.navbar-header {
+    background-color: white transparent;
+}
+.p {
+    font-family: "source sans pro"
+}
+.billede {
+    margin-top: 6vw;
+}
+.menu {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+.kontakt {
+    background-image: url(../billeder/baggrund-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.navbar-header {
+    background-color: white;
+}
+.tekstmobil p {
+    font-size: 12px;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+}
+.tekst p {
+    font-size: 14px;
+}
+.follow {
+    text-align: center;
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 3vw;
+    margin-top: 4vw;
+}
+img {
+    width: 100%;
+}
+.social img {
+    width: 4vw;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+
+/*Mobil xs*/
+
+@media only screen and (min-width: 1025px) {
+    .tekst {
+        margin-left: 5vw;
+    }
+    footer {
+        font-size: 12px;
+        margin-bottom: 1vw;
+    }
+    .billede img {
+        margin-top: -5vw;
+    }
+    .social img {
+        width: 3vw;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .billede img {
+        margin-top: -5vw;
+    }
+    footer {
+        font-size: 12px;
+    }
+    .tekst {
+        margin-left: 5vw;
+    }
+}
+
+/*Tablet sm*/
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .billede img {
+        margin-top: -5vw;
+    }
+    .social img {
+        width: 100%;
+        margin-bottom: 3vw;
+        margin-top: 5vw;
+    }
+}
+
+/*Mobil xs*/
+
+@media only screen and (max-width: 425px) {
+    .menu {
+        margin-top: 3vw;
+        margin-bottom: 1vw;
+    }
+    .billede img {
+        margin-top: -10vw;
+    }
+    .social img {
+        width: 7vw;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+}
