@@ -1,0 +1,7 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <title>3</title>
+  <circle cx="233.03" cy="191.71" r="127.75" fill="#4b84aa"/>
+  <text transform="translate(184.1 180.76)" font-size="30" font-family="AvenirNext-DemiBold, Avenir Next"><tspan font-weight="700"><tspan letter-spacing="-0.05em">F</tspan><tspan x="15.57" y="0">ASE 3</tspan></tspan><tspan font-family="AvenirNext-Regular, Avenir Next"><tspan x="-2.13" y="36">IDE</tspan><tspan x="46.14" y="36" letter-spacing="-0.06em">A</tspan><tspan x="65.34" y="36">TE</tspan></tspan></text>
+  <line x1="106.5" y1="193.58" x2="39" y2="194.08" fill="none" stroke="#000" stroke-miterlimit="10"/>
+  <polygon points="39.5 194.08 53 186.28 53 201.87 39.5 194.08" stroke="#000" stroke-miterlimit="10"/>
+</svg>

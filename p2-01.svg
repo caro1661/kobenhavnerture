@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="200" cy="200" r="127.5" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>p2</title>
+  <g clip-path="url(#clip-path)">
+    <g id="RUFK9U">
+      <image id="RUFK9U-2" data-name="RUFK9U" width="945" height="1024" transform="translate(91 67.08) scale(0.28)" xlink:href="p21.png"/>
+    </g>
+  </g>
+</svg>
